@@ -5,6 +5,10 @@ Hate speech is most prevalent among internet communities where anonymity of iden
 
 ## Model Overview
 For this project, I am using GloVe embedding with one layer of bidirectional LSTM followed by fully connected layer for prediction. There were other great ideas as to how to go about modeling, 1D ConvNet + LSTM and traditional ML techniques like SVM for example. But I am sticking with deep learning approach. One thing to note is that this dataset seems to be prone to overfitting. Even slight complexity to the model showed signs of overfitting. The model was trained using google colab's GPU. For more details about model building, refer to .ipynb notebook
+<br>
+<br>
+<br>
+
 
 ## Run with Docker
 launch the streamlit app with docker:
