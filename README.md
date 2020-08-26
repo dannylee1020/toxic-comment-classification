@@ -8,7 +8,7 @@ For this project, I am using GloVe embedding with one layer of bidirectional LST
 <br>
 <br>
 <br>
-<img src="https://github.com/dannylee1020/toxic-comment-classification/blob/master/files/toxic_model_structure.png" width="600" height="480">
+<img src="https://github.com/dannylee1020/toxic-comment-classification/blob/master/files/toxic_model_structure.png" width="480" height="300">
 
 ## Run with Docker
 launch the streamlit app with docker:
