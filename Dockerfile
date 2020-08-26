@@ -9,14 +9,11 @@ RUN pip install -r requirements.txt
 
 # copy files
 COPY files files/
-COPY app.py .
-COPY config.py .
-COPY process.py .
-
+COPY app app/
 
 # local build
 EXPOSE 8501
 
 
 ENTRYPOINT ["streamlit", "run"]
-CMD ["app.py"]
+CMD ["app/app.py"]
