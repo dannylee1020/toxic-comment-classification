@@ -16,5 +16,9 @@ launch the streamlit app with docker:
 then visit [localhost:8501](https://localhost:8501) to view the app
 
 
+## Test
+Running simple unit testing on model prediction using pytest to make sure everything is in place
+
+
 ## Reference
 [Kaggle](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/overview)
