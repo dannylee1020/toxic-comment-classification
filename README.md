@@ -5,10 +5,7 @@ Hate speech is most prevalent among internet communities where anonymity of iden
 
 ## Model Overview
 For this project, I am using GloVe embedding with one layer of bidirectional LSTM followed by fully connected layer for prediction. There were other great ideas as to how to go about modeling, 1D ConvNet + LSTM and traditional ML techniques like SVM for example. But I am sticking with deep learning approach. One thing to note is that this dataset seems to be prone to overfitting. Even slight complexity to the model showed signs of overfitting. The model was trained using google colab's GPU. For more details about model building, refer to .ipynb notebook
-<br>
-<br>
-<br>
-<img src="https://github.com/dannylee1020/toxic-comment-classification/blob/master/files/toxic_model_structure.png" width="480" height="300">
+
 
 ## Run with Docker
 launch the streamlit app with docker:

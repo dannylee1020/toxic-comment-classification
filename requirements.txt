@@ -9,3 +9,4 @@ tensorflow == 2.3.0
 keras == 2.4.3
 joblib
 nltk == 3.2.5
+
